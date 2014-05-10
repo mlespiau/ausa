@@ -3,6 +3,11 @@ Análisis autopistas AUSA Buenos Aires
 
 El objetivo del presente análisis es responder a algunas cuestiones acerca de la seguridad de las autopistas de Buenos Aires tanto desde el punto de vista vial, como de otro tipos de incidentes. Para esto, tomé los set de datos de http://data.buenosaires.gob.ar/ que contiene información tanto reclamos hechos por particulares como de incidientes en los que tuvo que intervenir Seguridad Vial.
 
+Set de datos de reclamos
+----
+El primer set de datos que me propuse husmear fue el de reclamos [ausa-reclamos.csv](https://github.com/mlespiau/ausa/blob/master/data/ausa-reclamos.csv) y me llamó la atención entre los reclamos una categoría de reclamos por piedras. Me interesó muchísimo entonces ver la cantidad de reclamos por autopista, y así acercarme a mi objetivo de conocer si existen autopistas más peligrosas que otras pero lamentablemente para los reclamos por piedra, ninguno tiene la información cargada de la ubicación del incidente. Entonces quize respondeme otra pregunta: 
+
+### Cómo es la evolución anual de los reclamos por piedras? 
 
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png )](http://creativecommons.org/licenses/by/4.0/)
