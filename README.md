@@ -9,7 +9,7 @@ El primer set de datos que me propuse husmear fue el de reclamos [ausa-reclamos.
 
 ### Cómo es la evolución anual de los reclamos por piedras? 
 Y esto es lo que encontré:
-![Gráfico de evolución anual de los reclamos por piedras](https://github.com/mlespiau/ausa/blob/master/plots/reclamosPorPiedras.png)
+![Gráfico de evolución anual de los reclamos por piedras](https://raw.githubusercontent.com/mlespiau/ausa/master/plots/reclamosPorPiedras.png)
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png )](http://creativecommons.org/licenses/by/4.0/)
 Análisis autopistas AUSA Buenos Aires by [Matias Lespiau](https://github.com/mlespiau/ausa) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
