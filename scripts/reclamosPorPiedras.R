@@ -2,10 +2,14 @@ library(sqldf)
 library(lattice)
 reclamos <- read.csv("./data/ausa-reclamos.csv", header=TRUE, sep=";")
 reclamos$fecha <- as.Date(reclamos$fechareclamo, format="%Y-%m-%d %H:%M:%S")
+reclamos$anio <- format(reclamos$fecha, format="%Y")
+reclamos$mes <- format(reclamos$fecha, format="%m")
+# Limpiar los del año 1988 dado que parecen ser datos imprecisos
+reclamos <- sqldf("SELECT * FROM reclamos WHERE anio != '1988'")
+
 if (!file.exists("plots")) {
   dir.create("plots");
 }
-reclamos$anio <- format(reclamos$fecha, format="%Y")
 png("plots/reclamosPorPiedras.png", height=680, width=850, bg="transparent")
 hist(as.integer(reclamos[reclamos$motivo == "PIEDRAS", c("anio")]), labels=TRUE, right=FALSE, main="Cantidad de reclamos por piedras en las autopistas de Buenos Aires", xlab="Año", ylab="Cantidad de reclamos", col="blue")
 dev.off()
