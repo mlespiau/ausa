@@ -19,6 +19,10 @@ Otro tema interesante es ver si hay algún mes más propenso a que se den estos 
 
 ![Gráfico de reclamos por piedras desglosados mensualmente ](https://raw.githubusercontent.com/mlespiau/ausa/master/plots/reclamosPorPiedrasMesAnio.png)
 
+### To Do
+* Probar como se visualiza mejor, si el grafico desglosado por mes con uno de barras que esten las barras agrupadas por mes, una al lado de otra la de cada año. 
+* Otra opcion para el mismo gráfico es resaltar los meses con más incidentes reportados en cada gráfico anual
+* Graficar la cantidad de reclamos neta para ver si tiene la misma distribuición que la de reclamos por piedras. 
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png )](http://creativecommons.org/licenses/by/4.0/)
 Análisis autopistas AUSA Buenos Aires by [Matias Lespiau](https://github.com/mlespiau/ausa) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
