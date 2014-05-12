@@ -11,6 +11,15 @@ El primer set de datos que me propuse husmear fue el de reclamos [ausa-reclamos.
 Y esto es lo que encontré:
 ![Gráfico de evolución anual de los reclamos por piedras](https://raw.githubusercontent.com/mlespiau/ausa/master/plots/reclamosPorPiedras.png)
 
+Se puede apreciar desde el 2006 hacia el 2013 una disminuición de la cantidad de reclamos por piedras. Lamentablemente eso no nos dice demasiado, dado que no sabemos si la dismunuición se debe a que hay menos piedrazos o a que la gente reclama menos. 
+
+Acá podríamos ver la cantidad total de reclamos por año. 
+
+Otro tema interesante es ver si hay algún mes más propenso a que se den estos incidentes. Es decir, si hay algún mes particular donde los usuarios de las autopistas reclaman recibir piedrazos. 
+
+![Gráfico de reclamos por piedras desglosados mensualmente ](https://raw.githubusercontent.com/mlespiau/ausa/master/plots/reclamosPorPiedrasMesAnio.png)
+
+
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png )](http://creativecommons.org/licenses/by/4.0/)
 Análisis autopistas AUSA Buenos Aires by [Matias Lespiau](https://github.com/mlespiau/ausa) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
 Based on a work at [http://data.buenosaires.gob.ar/](http://data.buenosaires.gob.ar/)
