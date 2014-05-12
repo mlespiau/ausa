@@ -11,7 +11,7 @@ if (!file.exists("plots")) {
   dir.create("plots");
 }
 png("plots/reclamosPorPiedras.png", height=680, width=850, bg="transparent")
-hist(as.integer(reclamos[reclamos$motivo == "PIEDRAS", c("anio")]), labels=TRUE, right=FALSE, main="Cantidad de reclamos por piedras en las autopistas de Buenos Aires", xlab="Año", ylab="Cantidad de reclamos", col="blue")
+hist(as.integer(reclamos[reclamos$motivo == "PIEDRAS", c("anio")]), labels=TRUE, right=FALSE, main="Cantidad de reclamos anuales por piedras en las autopistas de Buenos Aires", xlab="Año", ylab="Cantidad de reclamos", col="blue")
 dev.off()
 
 reclamosPorMesAnio <- sqldf("SELECT anio, mes, COUNT(*) as cnt FROM reclamos WHERE motivo = 'PIEDRAS' GROUP BY anio, mes ORDER BY anio DESC, mes DESC")
